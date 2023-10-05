@@ -1,0 +1,45 @@
+.display-area{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.todo{
+    font-size: 3vw;
+    line-height: 3vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #dadadada;
+    color: white;
+}
+
+.left{
+    width: 80%;
+}
+.description-name{
+    font-size: 2vw;
+}
+
+.delete-btn{
+    font-size: 1.2vw;
+    height: 30%;
+    width: 5rem;
+    margin: auto;
+
+    border: 2px solid rgb(49, 44, 44);
+    border-radius: 5px;
+    background-color: rgb(156, 144, 144);
+
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    transition: all 0.2s;
+    
+}
+
+.delete-btn:hover{
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}

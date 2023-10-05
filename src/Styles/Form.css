@@ -1,0 +1,47 @@
+
+.forms{
+    height: 40vh;
+    padding: 2vw 2vw;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.forms input {
+    border: 2px solid rgb(49, 44, 44);
+    border-radius: 30px;
+    background-color: grey;
+    font-size: 2vw;
+}
+
+.task{
+    height: 30%;
+}
+
+.description{
+    height: 40%;
+}
+
+.submit-btn{
+    font-size: 1.2vw;
+    height: 20%;
+    width: 10vw;
+    margin: auto;
+
+    border: 2px solid rgb(49, 44, 44);
+    border-radius: 30px;
+    background-color: grey;
+
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    transition: all 0.2s;
+    
+}
+
+.submit-btn:hover{
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+
+
+
